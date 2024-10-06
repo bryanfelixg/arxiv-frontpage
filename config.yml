@@ -7,6 +7,12 @@ sections:
       on a existing dataset are not of interest.
     label: "new-dataset"
     threshold: 0.7
+  - name: "Biology Models"
+    instructions: |
+      This label represents arxiv articles that discuss mathematical
+      models in biology.
+    label: "biomath"
+    threshold: 0.7
   - name: "Data Quality"
     instructions: |
       This label represents arxiv articles that discuss data quality issues in existing 
